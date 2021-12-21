@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "release": "semantic-release",
+    "release": "cross-env DEBUG=conventional-changelog:* semantic-release",
     "lint": "cross-env NODE_ENV=production eslint src --fix --ext .ts,.js",
     "build": "rimraf dist && tsc",
     "dev": "cross-env NODE_ENV=development ts-node-dev src/index.ts",
@@ -54,7 +54,33 @@
     "url": "https://github.com/CaoMeiYouRen/changelog-test/issues"
   },
   "changelog": {
-    "language": "zh"
+    "language": "zh",
+    "setting": {
+      "docs": {
+        "title": "📝 文档",
+        "enable": true
+      },
+      "style": {
+        "title": "💄 风格",
+        "enable": true
+      },
+      "test": {
+        "title": "✅ 测试",
+        "enable": true
+      },
+      "build": {
+        "title": "👷‍ 构建",
+        "enable": true
+      },
+      "ci": {
+        "title": "🔧 CI 配置",
+        "enable": true
+      },
+      "chore": {
+        "title": "🎫 其他更新",
+        "enable": true
+      }
+    }
   },
   "lint-staged": {
     "*.{js,ts}": [

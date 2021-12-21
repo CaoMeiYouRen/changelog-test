@@ -8,3 +8,4 @@
 *.min.*
 src/public/
 /public/
+libs/conventional-changelog-cmyr-config/*
