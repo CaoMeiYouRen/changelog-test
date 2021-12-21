@@ -14,6 +14,7 @@ try {
 }
 
 const { changelog = {} } = pkgJson
+debug('changelog: %o', changelog)
 const en = {
     feat: {
         title: '✨ Features',
@@ -113,18 +114,14 @@ const defaultOptions = {
     authorEmail: false,
     settings: _settings,
 }
-const { bugsUrl, authorName, authorEmail } = {
-    ...defaultOptions,
-    ...changelog,
-}
+const options = Object.assign({}, defaultOptions, changelog)
+debug('options: %o', options)
+const { bugsUrl, authorName, authorEmail } = options
 
 changelog.settings = changelog.settings || {}
-const settings = {
-    ...defaultOptions.settings,
-    ...changelog.settings,
-}
-
+const settings = Object.assign({}, defaultOptions.settings, changelog.settings)
 debug('settings: %o', settings)
+
 let gitUserInfo = ''
 if (authorName && authorEmail) {
     gitUserInfo = 'by: **{{authorName}}** ({{authorEmail}})'
