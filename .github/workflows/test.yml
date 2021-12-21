@@ -10,7 +10,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "lts/*"
-          cache: "yarn"
+          # cache: "yarn"
       - name: Cache multiple paths
         uses: actions/cache@v2
         with:
