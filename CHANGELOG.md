@@ -1,5 +1,12 @@
 # changelog-test
 
+## [1.1.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.0...v1.1.1) (2021-12-21)
+
+
+### 🐛 Bug 修复
+
+* 修复 commit type 错误 ([f0d8023](https://github.com/CaoMeiYouRen/changelog-test/commit/f0d8023))
+
 # [1.1.0](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.0.0...v1.1.0) (2021-12-21)
 
 
