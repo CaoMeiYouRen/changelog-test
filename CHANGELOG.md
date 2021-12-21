@@ -1,5 +1,12 @@
 # changelog-test
 
+## [1.1.4](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.3...v1.1.4) (2021-12-21)
+
+
+### 🐛 Bug 修复
+
+* fIX ([f0d7264](https://github.com/CaoMeiYouRen/changelog-test/commit/f0d7264))
+
 ## [1.1.3](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.2...v1.1.3) (2021-12-21)
 
 
