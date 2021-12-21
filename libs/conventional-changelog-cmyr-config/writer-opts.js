@@ -170,11 +170,12 @@ function getWriterOpts() {
             } else if (requiredOption.includes(commit.type)) {
                 commit.type = settings[commit.type].title
             } else if (optionalOptions.includes(commit.type)) { // 以上为必须，以下为可选
-                commit.type = settings[commit.type].title
-                if (!(settings[commit.type] && settings[commit.type].enable)) {
+                if (!settings[commit.type].enable) {
+                    commit.type = settings[commit.type].title
                     debug('该 commit 类型不生成日志：%s', commit)
                     return
                 }
+                commit.type = settings[commit.type].title
             } else if (discard) {
                 return
             } else {
