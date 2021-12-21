@@ -1,5 +1,12 @@
 # changelog-test
 
+# [1.1.0](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.0.0...v1.1.0) (2021-12-21)
+
+
+### ✨ 新功能
+
+* 新增 conventional-changelog-cmyr-config； ([aa812de](https://github.com/CaoMeiYouRen/changelog-test/commit/aa812de))
+
 # 1.0.0 (2021-12-21)
 
 
