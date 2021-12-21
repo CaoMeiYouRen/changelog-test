@@ -1,5 +1,17 @@
 # changelog-test
 
+## [1.1.3](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.2...v1.1.3) (2021-12-21)
+
+
+### 🐛 Bug 修复
+
+* 修复 changelog 配置不生效的bug ([b59a1be](https://github.com/CaoMeiYouRen/changelog-test/commit/b59a1be))
+
+
+### 📝 文档
+
+* 文档修改 ([3cc7ead](https://github.com/CaoMeiYouRen/changelog-test/commit/3cc7ead))
+
 ## [1.1.2](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.1...v1.1.2) (2021-12-21)
 
 
