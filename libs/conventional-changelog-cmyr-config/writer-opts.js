@@ -117,11 +117,14 @@ const { bugsUrl, authorName, authorEmail } = {
     ...defaultOptions,
     ...changelog,
 }
+
+changelog.settings = changelog.settings || {}
 const settings = {
     ...defaultOptions.settings,
-    ...changelog.settings || {},
+    ...changelog.settings,
 }
 
+debug('settings: %o', settings)
 let gitUserInfo = ''
 if (authorName && authorEmail) {
     gitUserInfo = 'by: **{{authorName}}** ({{authorEmail}})'
