@@ -1,5 +1,17 @@
 # changelog-test
 
+# [2.0.0](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.4...v2.0.0) (2021-12-23)
+
+
+### 🐛 Bug 修复
+
+* 测试 BREAKING CHANGE ([b6ed7f5](https://github.com/CaoMeiYouRen/changelog-test/commit/b6ed7f5))
+
+
+### 💥 BREAKING CHANGES
+
+* 测试 BREAKING CHANGE
+
 ## [1.1.4](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.3...v1.1.4) (2021-12-21)
 
 
