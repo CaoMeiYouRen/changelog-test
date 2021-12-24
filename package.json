@@ -57,23 +57,23 @@
     "settings": {
       "docs": {
         "title": "📝 文档",
-        "enable": false
+        "enable": true
       },
       "style": {
         "title": "💄 风格",
-        "enable": false
+        "enable": true
       },
       "test": {
         "title": "✅ 测试",
-        "enable": false
+        "enable": true
       },
       "build": {
         "title": "👷‍ 构建",
-        "enable": false
+        "enable": true
       },
       "ci": {
         "title": "🔧 CI 配置",
-        "enable": false
+        "enable": true
       },
       "chore": {
         "title": "🎫 其他更新",
