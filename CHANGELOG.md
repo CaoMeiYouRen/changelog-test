@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.0.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.0...v2.0.1) (2021-12-24)
+
+
+### 🐛 Bug 修复
+
+* 更新 .releaserc.js ([9e82ea3](https://github.com/CaoMeiYouRen/changelog-test/commit/9e82ea3))
+
 # [2.0.0](https://github.com/CaoMeiYouRen/changelog-test/compare/v1.1.4...v2.0.0) (2021-12-23)
 
 
