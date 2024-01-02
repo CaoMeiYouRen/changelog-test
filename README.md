@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/CaoMeiYouRen/changelog-test/actions?query=workflow%3ARelease" target="_blank">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/CaoMeiYouRen/changelog-test/Release">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/CaoMeiYouRen/changelog-test/release.yml?branch=master">
   </a>
   <img src="https://img.shields.io/badge/node-%3E%3D12-blue.svg" />
   <a href="https://github.com/CaoMeiYouRen/changelog-test#readme" target="_blank">
