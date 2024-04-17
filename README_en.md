@@ -17,7 +17,6 @@
 </p>
 
 > Soume Youren test generation log project
-> Update documentation
 
 ### 🏠[Home page](https://github.com/CaoMeiYouRen/changelog-test#readme)
 
