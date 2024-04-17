@@ -18,7 +18,6 @@
 
 
 > 草梅友仁测试生成日志用项目
-> 更新文档
 
 ### 🏠 [主页](https://github.com/CaoMeiYouRen/changelog-test#readme)
 
