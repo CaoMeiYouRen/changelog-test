@@ -4,13 +4,15 @@ module.exports = {
         [
             "@semantic-release/commit-analyzer",
             {
-                "config": "./libs/conventional-changelog-cmyr-config/index.js"
+                "config": "conventional-changelog-cmyr-config"
+                // "config": "./libs/conventional-changelog-cmyr-config/index.js"
             }
         ],
         [
             "@semantic-release/release-notes-generator",
             {
-                "config": "./libs/conventional-changelog-cmyr-config/index.js"
+                "config": "conventional-changelog-cmyr-config"
+                // "config": "./libs/conventional-changelog-cmyr-config/index.js"
             }
         ],
         [
