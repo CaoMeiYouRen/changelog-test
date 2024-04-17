@@ -17,7 +17,6 @@
 </p>
 
 > 草梅友仁測試生成日誌用項目
-> 更新文件
 
 ### 🏠[首頁](https://github.com/CaoMeiYouRen/changelog-test#readme)
 
@@ -55,7 +54,7 @@ npm run dev
 npm run build
 ```
 
-## 皮棉
+## Lint
 
 ```sh
 npm run lint
@@ -65,12 +64,12 @@ npm run lint
 
 👤**CA OM EI your恩**
 
--   網站：<https://blog.cmyr.ltd/>
+-   Website: <https://blog.cmyr.ltd/>
 -   GitHub：[@CA OM EI your恩](https://github.com/CaoMeiYouRen)
 
 ## 🤝貢獻
 
-歡迎 貢獻、提問或提出新功能！<br />如有問題請查看[問題頁面](https://github.com/CaoMeiYouRen/changelog-test/issues).<br/>貢獻或提出新功能可以查看[contributing guide](https://github.com/CaoMeiYouRen/changelog-test/blob/master/CONTRIBUTING.md).
+歡迎 貢獻、提問或提出新功能！<br />如有問題請查看[問題頁面](https://github.com/CaoMeiYouRen/changelog-test/issues).<br/>貢獻或提出新功能可以查看[貢獻指南](https://github.com/CaoMeiYouRen/changelog-test/blob/master/CONTRIBUTING.md).
 
 ## 💰支持
 
