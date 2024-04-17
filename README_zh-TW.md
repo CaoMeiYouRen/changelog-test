@@ -66,11 +66,11 @@ npm run lint
 👤**CA OM EI your恩**
 
 -   網站：<https://blog.cmyr.ltd/>
--   GitHub：[@CaoMeiYouRen](https://github.com/CaoMeiYouRen)
+-   GitHub：[@CA OM EI your恩](https://github.com/CaoMeiYouRen)
 
 ## 🤝貢獻
 
-歡迎 貢獻、提問或提出新功能！<br />如有問題請查看[問題頁面](https://github.com/CaoMeiYouRen/changelog-test/issues).<br/>貢獻或提出新功能可以查看[貢獻指南](https://github.com/CaoMeiYouRen/changelog-test/blob/master/CONTRIBUTING.md).
+歡迎 貢獻、提問或提出新功能！<br />如有問題請查看[問題頁面](https://github.com/CaoMeiYouRen/changelog-test/issues).<br/>貢獻或提出新功能可以查看[contributing guide](https://github.com/CaoMeiYouRen/changelog-test/blob/master/CONTRIBUTING.md).
 
 ## 💰支持
 
@@ -78,7 +78,7 @@ npm run lint
 
 ## 📝 許可證
 
-Copyright © 2021 [CA OM EI your恩](https://github.com/CaoMeiYouRen).<br />這個項目是[和](https://github.com/CaoMeiYouRen/changelog-test/blob/master/LICENSE)領有牌照。
+版權所有 © 2021[CA OM EI your恩](https://github.com/CaoMeiYouRen).<br />這個項目是[和](https://github.com/CaoMeiYouRen/changelog-test/blob/master/LICENSE)領有牌照。
 
 * * *
 
