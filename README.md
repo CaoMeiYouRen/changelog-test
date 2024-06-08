@@ -18,7 +18,7 @@
 
 
 > 草梅友仁测试生成日志用项目
-> master 进行了一些改动
+> 测试 alpha 分支的改动
 
 ### 🏠 [主页](https://github.com/CaoMeiYouRen/changelog-test#readme)
 
