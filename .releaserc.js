@@ -1,4 +1,5 @@
 const { name } = require('./package.json')
+const isMaster = process.env.REF_NAME === 'master'
 module.exports = {
     plugins: [
         [
@@ -15,7 +16,7 @@ module.exports = {
                 // "config": "./libs/conventional-changelog-cmyr-config/index.js"
             }
         ],
-        [
+        isMaster && [
             "@semantic-release/changelog",
             {
                 "changelogFile": "CHANGELOG.md",
@@ -34,5 +35,5 @@ module.exports = {
                 ]
             }
         ]
-    ]
+    ].filter(Boolean)
 }
