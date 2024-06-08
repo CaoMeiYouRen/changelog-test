@@ -18,6 +18,7 @@
 
 
 > 草梅友仁测试生成日志用项目
+> alpha 进行了一些 fix 改动
 
 ### 🏠 [主页](https://github.com/CaoMeiYouRen/changelog-test#readme)
 
