@@ -1,5 +1,23 @@
 # changelog-test
 
+## [2.1.2](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.1...v2.1.2) (2024-06-08)
+
+
+### 🐛 Bug 修复
+
+* alpha 分支有了一些改动，测试是否能合并到 beta 分支 ([d20f368](https://github.com/CaoMeiYouRen/changelog-test/commit/d20f368))
+* 测试  alpha 分支的改动 ([2623729](https://github.com/CaoMeiYouRen/changelog-test/commit/2623729))
+
+
+### 🔧 CI 配置
+
+* 修复 checkout 错误 ([dab8384](https://github.com/CaoMeiYouRen/changelog-test/commit/dab8384))
+* 修复 git fetch 问题 ([1ffbc82](https://github.com/CaoMeiYouRen/changelog-test/commit/1ffbc82))
+* 修复 merge 问题 ([108f994](https://github.com/CaoMeiYouRen/changelog-test/commit/108f994))
+* 修复 合并错误 ([1cb0cf3](https://github.com/CaoMeiYouRen/changelog-test/commit/1cb0cf3))
+* 修复 推送问题 ([bf4689f](https://github.com/CaoMeiYouRen/changelog-test/commit/bf4689f))
+* 添加自动合并 alpha 分支到 beta ([23caa7e](https://github.com/CaoMeiYouRen/changelog-test/commit/23caa7e))
+
 ## [2.1.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.0...v2.1.1) (2024-06-08)
 
 
