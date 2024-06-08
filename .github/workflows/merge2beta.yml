@@ -32,17 +32,17 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 10
-      # - name: Nightly Merge
-      #   uses: robotology/gh-action-nightly-merge@v1.5.0
-      #   with:
-      #     stable_branch: "beta"
-      #     development_branch: "alpha"
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Up merge
-        uses: bambamboole/gha-upmerge@v1.0.1
+      - name: Nightly Merge
+        uses: robotology/gh-action-nightly-merge@v1.5.0
         with:
-          from_branch: "alpha"
-          to_branch: "beta"
+          stable_branch: "alpha"
+          development_branch: "beta"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Up merge
+      #   uses: bambamboole/gha-upmerge@v1.0.1
+      #   with:
+      #     from_branch: "alpha"
+      #     to_branch: "beta"
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
