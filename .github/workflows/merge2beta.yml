@@ -33,7 +33,11 @@ jobs:
           persist-credentials: false
       - name: Merge alpha to beta
         run: |
-          git fetch origin
+          git fetch
           git checkout beta
-          git rebase beta alpha
-          git push origin alpha
+          git merge origin/alpha
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: beta
