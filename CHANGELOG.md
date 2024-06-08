@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.0...v2.1.1) (2024-06-08)
+
+
+### 🐛 Bug 修复
+
+* 优化仅在 release 分支生成 CHANGELOG ([8e5d867](https://github.com/CaoMeiYouRen/changelog-test/commit/8e5d867))
+
 # [2.1.0](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.2...v2.1.0) (2024-06-08)
 
 
