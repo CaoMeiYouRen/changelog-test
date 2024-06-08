@@ -1,5 +1,23 @@
 # changelog-test
 
+# [2.1.0](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.2...v2.1.0) (2024-06-08)
+
+
+### ✨ 新功能
+
+* beta 进行了一些 feat 改动 ([6ea7958](https://github.com/CaoMeiYouRen/changelog-test/commit/6ea7958))
+* master 分支进行了最终的改动 ([064e793](https://github.com/CaoMeiYouRen/changelog-test/commit/064e793))
+
+
+### 🐛 Bug 修复
+
+* alpha 进行了一些 fix 改动 ([36d66cb](https://github.com/CaoMeiYouRen/changelog-test/commit/36d66cb))
+
+
+### 🔧 CI 配置
+
+* 增加 Release 的分支 ([30c2d60](https://github.com/CaoMeiYouRen/changelog-test/commit/30c2d60))
+
 # [2.1.0-beta.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.2...v2.1.0-beta.1) (2024-06-08)
 
 
