@@ -1,5 +1,25 @@
 # changelog-test
 
+## [2.0.2](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.1...v2.0.2) (2024-06-08)
+
+
+### 🐛 Bug 修复
+
+* 更新 conventional-changelog-cmyr-config 版本 ([18742fe](https://github.com/CaoMeiYouRen/changelog-test/commit/18742fe))
+* 测试 conventional-changelog-cmyr-config 版本问题 ([70f913c](https://github.com/CaoMeiYouRen/changelog-test/commit/70f913c))
+
+
+### 👷‍ 构建
+
+* 修复 ts 配置 ([83c2b0b](https://github.com/CaoMeiYouRen/changelog-test/commit/83c2b0b))
+
+
+### 🔧 CI 配置
+
+* 新增 translate.yml ([05b6d86](https://github.com/CaoMeiYouRen/changelog-test/commit/05b6d86))
+* 新增 自动翻译 README ([fe08b36](https://github.com/CaoMeiYouRen/changelog-test/commit/fe08b36))
+* 更新 CI 配置 ([a671b95](https://github.com/CaoMeiYouRen/changelog-test/commit/a671b95))
+
 ## [2.0.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.0...v2.0.1) (2021-12-24)
 
 
