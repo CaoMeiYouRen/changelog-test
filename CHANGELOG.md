@@ -1,5 +1,17 @@
 # changelog-test
 
+## [2.0.3-alpha.1](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.2...v2.0.3-alpha.1) (2024-06-08)
+
+
+### 🐛 Bug 修复
+
+* alpha 进行了一些 fix 改动 ([36d66cb](https://github.com/CaoMeiYouRen/changelog-test/commit/36d66cb))
+
+
+### 🔧 CI 配置
+
+* 增加 Release 的分支 ([30c2d60](https://github.com/CaoMeiYouRen/changelog-test/commit/30c2d60))
+
 ## [2.0.2](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.0.1...v2.0.2) (2024-06-08)
 
 
