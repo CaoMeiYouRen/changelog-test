@@ -1,0 +1,38 @@
+name: Merge to Beta
+
+on:
+  push:
+    branches:
+      - alpha
+
+jobs:
+  # test:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v2
+  #       with:
+  #         python-version: 3.9
+  #     - name: Install dependencies
+  #       run: |
+  #         pip install poetry
+  #         poetry install --with test
+  #     - name: Run tests
+  #       run: |
+  #         poetry run pytest tests/
+
+  merge-to-beta:
+    # needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Merge alpha to beta
+        run: |
+          git checkout beta
+          git merge origin/alpha
+          git push
