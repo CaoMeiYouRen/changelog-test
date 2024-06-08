@@ -1,0 +1,63 @@
+name: Auto Merge
+
+on:
+  push:
+    branches:
+      - master
+      - beta
+      - alpha
+
+jobs:
+  # test:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v2
+  #       with:
+  #         python-version: 3.9
+  #     - name: Install dependencies
+  #       run: |
+  #         pip install poetry
+  #         poetry install --with test
+  #     - name: Run tests
+  #       run: |
+  #         poetry run pytest tests/
+
+  merge-to-beta:
+    # needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 10
+      - name: Merge from alpha to beta
+        uses: robotology/gh-action-nightly-merge@v1.5.0
+        if: ${{ github.ref_name == 'alpha' }}
+        with:
+          stable_branch: "alpha"
+          development_branch: "beta"
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Merge from beta to master
+        uses: robotology/gh-action-nightly-merge@v1.5.0
+        if: ${{ github.ref_name == 'beta' }}
+        with:
+          stable_branch: "beta"
+          development_branch: "master"
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      # - name: Up merge
+      #   uses: bambamboole/gha-upmerge@v1.0.1
+      #   with:
+      #     from_branch: "alpha"
+      #     to_branch: "beta"
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
