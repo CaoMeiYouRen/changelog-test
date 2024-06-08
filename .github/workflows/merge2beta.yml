@@ -33,6 +33,6 @@ jobs:
           persist-credentials: false
       - name: Merge alpha to beta
         run: |
-          git checkout beta
+          git checkout origin/beta
           git merge origin/alpha
           git push
