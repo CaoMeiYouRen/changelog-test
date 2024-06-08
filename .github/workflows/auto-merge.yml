@@ -1,8 +1,10 @@
-name: Merge to Beta
+name: Auto Merge
 
 on:
   push:
     branches:
+      - master
+      - beta
       - alpha
 
 jobs:
@@ -32,11 +34,24 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 10
-      - name: Nightly Merge
+      - name: Merge from alpha to beta
         uses: robotology/gh-action-nightly-merge@v1.5.0
+        if: ${{ github.ref_name == 'alpha' }}
         with:
           stable_branch: "alpha"
           development_branch: "beta"
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Merge from beta to master
+        uses: robotology/gh-action-nightly-merge@v1.5.0
+        if: ${{ github.ref_name == 'beta' }}
+        with:
+          stable_branch: "beta"
+          development_branch: "master"
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # - name: Up merge
