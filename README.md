@@ -18,7 +18,7 @@
 
 
 > 草梅友仁测试生成日志用项目
-> beta 进行了一些 feat 改动
+> master 进行了一些改动
 
 ### 🏠 [主页](https://github.com/CaoMeiYouRen/changelog-test#readme)
 
