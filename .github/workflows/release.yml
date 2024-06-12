@@ -49,9 +49,9 @@ jobs:
           # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm run release
       - name: Get git tag
+        # LATEST_TAG=$(git describe --tags --abbrev=0)
         run: |
-          LATEST_TAG=$(git describe --tags --abbrev=0)
-          echo "GIT_TAG=${LATEST_TAG#v}" >> ${GITHUB_ENV}
+          echo "GIT_TAG=$(git describe --tags --abbrev=0)" >> ${GITHUB_ENV}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
@@ -68,8 +68,9 @@ jobs:
         with:
           images: |
             ghcr.io/${{ github.repository }}
+          # type=raw,value=${{env.GIT_TAG}},enable=true
           tags: |
-            type=raw,priority=1100,enable=true,value={{env.GIT_TAG}}
+            type=match,priority=1100,pattern=\d.\d.\d,value=${{env.GIT_TAG}},enable=true
             type=raw,value=latest,enable=true
             type=raw,value={{date 'YYYY-MM-DD' tz='Asia/Shanghai'}},enable=true
             type=sha,format=short,prefix=sha-,enable=true
