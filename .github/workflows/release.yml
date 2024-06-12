@@ -49,10 +49,10 @@ jobs:
       #     # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       #     # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       #   run: pnpm run release
+      # - name: Get git tag
+      # LATEST_TAG=$(git describe --tags --abbrev=0)
       - name: Get git tag
-        # LATEST_TAG=$(git describe --tags --abbrev=0)
-        run: |
-          echo "GIT_TAG=$(git describe --tags --abbrev=0)" >> ${GITHUB_ENV}
+        run: echo "GIT_TAG=$(git describe --tags --abbrev=0)" >> ${GITHUB_ENV}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
