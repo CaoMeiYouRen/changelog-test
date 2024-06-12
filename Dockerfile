@@ -20,6 +20,6 @@ ENV NODE_ENV production
 
 WORKDIR /app
 # 后端部分
-COPY --from=docker-minifier /app /app
+COPY --from=builder /app /app
 
 CMD ["node", "dist/index.js"]
