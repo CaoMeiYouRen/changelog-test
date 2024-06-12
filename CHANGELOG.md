@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.6](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.5...v2.1.6) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 添加 git tag ([cb94002](https://github.com/CaoMeiYouRen/changelog-test/commit/cb94002))
+
 ## [2.1.5](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.4...v2.1.5) (2024-06-12)
 
 
