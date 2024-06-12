@@ -67,7 +67,7 @@ jobs:
           images: |
             ghcr.io/${{ github.repository }}
           tags: |
-            type=semver,pattern={{version}},priority=1100,enable=true,value={{env.GIT_TAG}}
+            type=match,pattern=\d.\d.\d,priority=1100,enable=true,value={{env.GIT_TAG}}
             type=raw,value=latest,enable=true
             type=raw,value={{date 'YYYY-MM-DD' tz='Asia/Shanghai'}},enable=true
             type=sha,format=short,prefix=sha-,enable=true
