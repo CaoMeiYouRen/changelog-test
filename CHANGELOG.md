@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.10](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.9...v2.1.10) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 修复 GIT_TAG 没有被正确传递的问题 ([f3bb58c](https://github.com/CaoMeiYouRen/changelog-test/commit/f3bb58c))
+
 ## [2.1.9](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.8...v2.1.9) (2024-06-12)
 
 
