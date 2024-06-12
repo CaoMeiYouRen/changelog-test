@@ -1,5 +1,29 @@
 # changelog-test
 
+## [2.1.3](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.2...v2.1.3) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 修复 docker 构建错误 ([5bb09d2](https://github.com/CaoMeiYouRen/changelog-test/commit/5bb09d2))
+
+
+### 👷‍ 构建
+
+* 新增 docker 构建 ([b30a3c6](https://github.com/CaoMeiYouRen/changelog-test/commit/b30a3c6))
+
+
+### 🔧 CI 配置
+
+* master 分支不应该再触发合并 ([3b415db](https://github.com/CaoMeiYouRen/changelog-test/commit/3b415db))
+* 修复 分支合并的方向错误 ([b35d6c7](https://github.com/CaoMeiYouRen/changelog-test/commit/b35d6c7))
+* 修复 分支合并的方向错误 ([4ed1f36](https://github.com/CaoMeiYouRen/changelog-test/commit/4ed1f36))
+* 修复 没有权限写入的问题 ([d7a15c1](https://github.com/CaoMeiYouRen/changelog-test/commit/d7a15c1))
+* 修复 自动合并的问题 ([09c58ff](https://github.com/CaoMeiYouRen/changelog-test/commit/09c58ff))
+* 尝试使用 GH_TOKEN ([c5e2266](https://github.com/CaoMeiYouRen/changelog-test/commit/c5e2266))
+* 新增 自动化合并 ([bff31ce](https://github.com/CaoMeiYouRen/changelog-test/commit/bff31ce))
+* 更改 CI 逻辑 ([ffefc1d](https://github.com/CaoMeiYouRen/changelog-test/commit/ffefc1d))
+
 ## [2.1.2](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.1...v2.1.2) (2024-06-08)
 
 
