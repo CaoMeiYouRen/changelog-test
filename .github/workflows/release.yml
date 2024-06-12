@@ -13,7 +13,7 @@ jobs:
     permissions:
       packages: write
       contents: write
-      repository-projects: write
+      # repository-projects: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -48,6 +48,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm run release
+      - name: Get git tag
+        run: echo "GIT_TAG=$(git describe --tags --abbrev=0)" >> ${GITHUB_ENV}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
@@ -65,7 +67,7 @@ jobs:
           images: |
             ghcr.io/${{ github.repository }}
           tags: |
-            type=semver,pattern={{version}},priority=1100,enable=true
+            type=semver,pattern={{version}},priority=1100,enable=true,value={{env.GIT_TAG}}
             type=raw,value=latest,enable=true
             type=raw,value={{date 'YYYY-MM-DD' tz='Asia/Shanghai'}},enable=true
             type=sha,format=short,prefix=sha-,enable=true
