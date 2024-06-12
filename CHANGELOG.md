@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.7](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.6...v2.1.7) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 修复 docker 版本号的问题 ([058ccdf](https://github.com/CaoMeiYouRen/changelog-test/commit/058ccdf))
+
 ## [2.1.6](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.5...v2.1.6) (2024-06-12)
 
 
