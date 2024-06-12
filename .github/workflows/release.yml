@@ -13,7 +13,7 @@ jobs:
     permissions:
       packages: write
       contents: write
-      id-token: write
+      repository-projects: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -44,7 +44,8 @@ jobs:
       - run: pnpm run build
       - env:
           REF_NAME: ${{ github.ref_name }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm run release
       - name: Set up QEMU
