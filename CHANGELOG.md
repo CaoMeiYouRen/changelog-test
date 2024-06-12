@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.4](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.3...v2.1.4) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 修复 docker 构建错误 ([3fdab2d](https://github.com/CaoMeiYouRen/changelog-test/commit/3fdab2d))
+
 ## [2.1.3](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.2...v2.1.3) (2024-06-12)
 
 
