@@ -20,6 +20,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 10
+          fetch-tags: true
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
