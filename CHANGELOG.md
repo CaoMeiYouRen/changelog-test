@@ -1,5 +1,14 @@
 # changelog-test
 
+## [2.1.5](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.4...v2.1.5) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 修复 GitHub Action 权限问题 ([b41167a](https://github.com/CaoMeiYouRen/changelog-test/commit/b41167a))
+* 修复 GITHUB_TOKEN 的权限问题 ([630eb0d](https://github.com/CaoMeiYouRen/changelog-test/commit/630eb0d))
+* 更改 GITHUB_TOKEN ([82e38ba](https://github.com/CaoMeiYouRen/changelog-test/commit/82e38ba))
+
 ## [2.1.4](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.3...v2.1.4) (2024-06-12)
 
 
