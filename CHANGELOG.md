@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.8](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.7...v2.1.8) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 增加 版本号输出 ([cd63045](https://github.com/CaoMeiYouRen/changelog-test/commit/cd63045))
+
 ## [2.1.7](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.6...v2.1.7) (2024-06-12)
 
 
