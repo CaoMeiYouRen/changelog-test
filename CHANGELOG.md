@@ -1,5 +1,12 @@
 # changelog-test
 
+## [2.1.9](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.8...v2.1.9) (2024-06-12)
+
+
+### 🐛 Bug 修复
+
+* 测试版本号输出 ([2307836](https://github.com/CaoMeiYouRen/changelog-test/commit/2307836))
+
 ## [2.1.8](https://github.com/CaoMeiYouRen/changelog-test/compare/v2.1.7...v2.1.8) (2024-06-12)
 
 
