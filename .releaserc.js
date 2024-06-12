@@ -24,7 +24,7 @@ module.exports = {
             }
         ],
         '@semantic-release/npm',
-        '@semantic-release/github',
+        // '@semantic-release/github',
         [
             "@semantic-release/git",
             {
