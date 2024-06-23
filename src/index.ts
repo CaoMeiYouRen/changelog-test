@@ -1,8 +1,18 @@
-class Hello {
-    msg = 'hello'
+import { $, usePowerShell } from 'zx'
+import semver from 'semver'
+import os from 'os'
+
+if (os.platform() === 'win32') {
+    usePowerShell()
 }
-const a = new Hello()
 
-console.log(a.msg)
+// $`git describe --exact-match --tags HEAD`
 
-// 这是一段 fix2333
+(async () => {
+    const version = await $`git describe --tags --abbrev=0`
+
+    // console.log(version)
+
+    console.log(version.stdout.trim())
+}
+)()

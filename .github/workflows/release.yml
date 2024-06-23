@@ -54,7 +54,10 @@ jobs:
       # - name: Get git tag
       # LATEST_TAG=$(git describe --tags --abbrev=0)
       - name: Get git tag
-        run: echo "GIT_TAG=$(git describe --tags --abbrev=0)" >> ${GITHUB_ENV}
+        # run: echo "GIT_TAG=$(git describe --tags --abbrev=0)" >> ${GITHUB_ENV}
+        run: |
+          GIT_TAG=$(git describe --tags --exact-match HEAD 2>/dev/null)
+          echo "GIT_TAG=$GIT_TAG" >> ${GITHUB_ENV}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
